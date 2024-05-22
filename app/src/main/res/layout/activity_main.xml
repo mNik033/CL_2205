@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/text1"
+        android:text="Hello World"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textCnt"
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/incCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increase count"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/decCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrease count"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/dlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset count"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
